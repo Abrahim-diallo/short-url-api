@@ -33,7 +33,7 @@
 
 ## Valid Request Body
 
-##### <a id="createShortUrl"> createShortUrl for Url
+##### <a id=""> createShortUrl for Url
 
 ``` 
     http://localhost:8080/api/v1/urls/createShortUrl    
@@ -44,20 +44,20 @@
 
 ```
 
-##### <a id="originalUrl">  Get original URL by its short URL
+##### <a id="">  Get original URL by its short URL
 
 ```
       http://localhost:8080/api/v1/urls/{shortUrl}    
 
 ```
 
-##### <a id="redirect"> Redirect to the original URL
+##### <a id=""> Redirect to the original URL
 
 ```
      http://localhost:8080/api/v1/urls/redirect/{shortUrl}
 ```
 
-##### <a id="getByOriginalUrl"> Get all URLs for an original URL
+##### <a id=""> Get all URLs for an original URL
 
 ```
     http://localhost:8080/api/v1/urls/getByOriginalUrl?originalUrl=originalUrl
